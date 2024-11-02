@@ -81,7 +81,6 @@ for k in range(0, 10):
             can += 1
             num += num_test
     with open(f"./a.text", "a") as file:
-        # 将结果说明和结果写入文件中
         file.write("\n")
         file.write(f"{k}" + "        ")
         file.write("can detect：")
